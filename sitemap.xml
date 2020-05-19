@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-05-19T15:23:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-05-19T15:23:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/senior-project/</loc>
+    <lastmod>2020-05-19T15:23:47-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
   </url>
   
@@ -12,10 +27,6 @@
   
   <url>
     <loc>/author/james-cao/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
   </url>
   
   <url>
