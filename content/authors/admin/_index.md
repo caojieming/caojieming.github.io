@@ -10,8 +10,9 @@ first_name: James
 last_name: cao
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   # icon: ☕️
+#   icon: ''
 
 # Is this the primary user of the site?
 superuser: true
@@ -31,25 +32,24 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jamesjmwcao@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+#  - icon: brands/x
+#    url: https://twitter.com/GetResearchDev
+#  - icon: brands/instagram
+#    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/caojieming/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/cao-james/
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/
+#  - icon: academicons/orcid
+#    url: https://orcid.org/
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Data Analysis
 
 education:
   - area: Computer Science
@@ -57,55 +57,67 @@ education:
     date_start: 2020-08-24
     date_end: 2024-05-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
       GPA: 3.8/4.0
+  #  summary: |
+  #    Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #  button:
+  #    text: 'Read Thesis'
+  #    url: 'https://example.com'
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - area: BSc Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.4/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Software Intern
+    company_name: Ailares
+    company_url: https://ailares.com/
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2023-05-01
+    date_end: 2023-07-01
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      Ailares is a FinTech start-up focused on ML/AI algorithm trading systems (equity, crypto currency).
+      Responsibilities included:
+      - Developed a data flow (ETL: extract, transform, load) for commercial loans and customers using CSI NuPoint, Microsoft SQL Server Management Studio (SSMS), SQL Server Integration Services (SSIS)
+      - Created Power BI dashboards (data visualization) organized by 7 commercial loan portfolios
+  - position: Software Intern
+    company_name: Ailares
+    company_url: https://ailares.com/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-05-01
+    date_end: 2022-08-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Improved invoice file processing workflows, researched current invoice management software solution vendors and automation enabled by Optical Character Recognition (OCR)
+      - Produced an automated workflow on AWS (Amazon Web Service) from data received via email to data tables in Amazon DynamoDB NoSQL (Not-Only-SQL) database
+  - position: Software Intern
+    company_name: NPG Solutions
+    company_url: https://upstack.com/npg-solutions/
+    company_logo: ''
+    date_start: 2021-06-01
+    date_end: 2021-08-01
+    summary: |
+      NPG is an IT service provider on Cloud, Collocation, Network Security, and Invoice Management.
+      Responsibilities included:
+      - Improved invoice file processing workflows, researched current invoice management software solution vendors and automation enabled by Optical Character Recognition (OCR)
+      - Produced an automated workflow on AWS (Amazon Web Service) from data received via email to data tables in Amazon DynamoDB NoSQL (Not-Only-SQL) database
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -183,4 +195,5 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+James Cao is a recent graduate of Worcester Polytechnic Institute (May 2024). WIP
