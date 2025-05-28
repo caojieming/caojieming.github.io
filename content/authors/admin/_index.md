@@ -50,6 +50,7 @@ profiles:
 interests:
   - Artificial Intelligence
   - Data Analysis
+  - Web Development
 
 education:
   - area: Computer Science
@@ -139,6 +140,18 @@ skills:
       - name: SQL
         description: ''
         percent: 70
+        icon: ''
+      - name: JavaScript
+        description: ''
+        percent: 40
+        icon: ''
+      - name: HTML
+        description: ''
+        percent: 40
+        icon: ''
+      - name: CSS
+        description: ''
+        percent: 40
         icon: ''
   # - name: Technical Skills
   #   items:
