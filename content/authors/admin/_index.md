@@ -128,31 +128,31 @@ skills:
       - name: Java
         description: ''
         percent: 80
-        icon: ''
+        icon: 'code-bracket'
       - name: Python
         description: ''
         percent: 90
-        icon: ''
+        icon: 'code-bracket'
       - name: C/C++
         description: ''
         percent: 60
-        icon: ''
+        icon: 'code-bracket'
       - name: SQL
         description: ''
         percent: 70
-        icon: ''
+        icon: 'circle-stack'
       - name: JavaScript
         description: ''
         percent: 40
-        icon: ''
+        icon: 'code-bracket'
       - name: HTML
         description: ''
         percent: 40
-        icon: ''
+        icon: 'code-bracket'
       - name: CSS
         description: ''
         percent: 40
-        icon: ''
+        icon: 'code-bracket'
   # - name: Technical Skills
   #   items:
   #     - name: Python
@@ -202,6 +202,7 @@ awards:
     icon: ''
     summary: |
       I studied how to create an iOS mobile app using Swift as a programming language and XCode as the environment.
+
       Learned content includes:
       - navigating multiple views through NavigationView and TabView
       - long term data storage, retrieval, and filtering using SwiftData
