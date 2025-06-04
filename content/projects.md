@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: Here's a list of projects I've done in the past, along with links to their Github Repositories.
       filters:
         folders:
           - project
