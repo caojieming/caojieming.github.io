@@ -8,6 +8,10 @@ date: 2020-05-19
 #   - Markdown
 ---
 
-Link to a webpage where you can play Tron (1p or 2p). This was the second part of my highschool senior project, the first part was the creation of my website.
+This was the second part of my highschool senior project, the first part was the creation of my website.
+
+Link to the webpage where you can play Tron: WIP
+
+Link to the Github repository: [Link](https://github.com/caojieming/Senior-Project)
 
 <!--more-->
