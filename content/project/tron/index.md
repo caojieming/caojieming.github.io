@@ -10,7 +10,7 @@ date: 2020-05-19
 
 This was the second part of my highschool senior project, the first part was the creation of my website.
 
-Link to the webpage where you can play Tron: WIP
+Link to the webpage where you can play Tron: [Link](https://jamescao.dev/project/tron/play/)
 
 Link to the Github repository: [Link](https://github.com/caojieming/Senior-Project)
 
