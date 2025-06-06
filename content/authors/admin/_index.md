@@ -196,7 +196,7 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: 100 Days of SwiftUI
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    url: https://jamescao.dev/uploads/100_days_of_swiftui_certificate.jpg
     date: '2025-04-07'
     awarder: Hacking with Swift
     icon: ''
