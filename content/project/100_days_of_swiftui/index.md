@@ -8,7 +8,7 @@ date: 2025-04-06
 #   - Markdown
 ---
 
-I completed [Hacking with Swift's](https://www.hackingwithswift.com/) [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course, a free collection of videos, tutorials, tests, and more, all drawn from Hacking with Swift's work, and all designed to help learn SwiftUI effectively.
+I completed [Hacking with Swift's](https://www.hackingwithswift.com/) [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui) course, a free collection of videos, tutorials, tests, and more, all drawn from Hacking with Swift's work, and all designed to help learn SwiftUI effectively. To demonstrate my progress in developing iOS apps, I uploaded 6 milestone projects to Github Repositories.
 
 [Github repository of Milestone 1 (projects 1-3)](https://github.com/caojieming/SwiftUI-P3.5-Rock-Paper-Scissors): An app for playing a 10 round game of rock paper scissors.
 

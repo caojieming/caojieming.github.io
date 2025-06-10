@@ -237,4 +237,4 @@ awards:
 ## About Me
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
-James Cao is a graduate of Worcester Polytechnic Institute (May 2024). WIP
+James Cao is a graduate of Worcester Polytechnic Institute (May 2024) with a BS in Computer Science. He has primarily worked with ETL, database management, and data analysis through academic projects and internships. His current interests include data analysis and AI using Python, as well as web development using JavaScript, CSS, and HTML.
