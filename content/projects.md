@@ -12,10 +12,10 @@ sections:
   - block: collection
     content:
       title: Projects
-      text: Here's a list of projects I've done in the past, along with links to their Github Repositories.
+      text: Here's a list of projects I've done in the past, along with links to their Github Repositories (if applicable).
       filters:
         folders:
-          - project
+          - projects
     design:
       view: article-grid
       fill_image: false
