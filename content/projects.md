@@ -15,7 +15,7 @@ sections:
       text: Here's a list of projects I've done in the past, along with links to their Github Repositories (if applicable).
       filters:
         folders:
-          - projects
+          - project
     design:
       view: article-grid
       fill_image: false
