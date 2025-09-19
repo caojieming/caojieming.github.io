@@ -6,6 +6,12 @@ date: 2025-05-20
 #   - Hugo
 #   - Wowchemy
 #   - Markdown
+image:
+  placement: 1
+  focal_point: 'Center'
+  preview_only: false
+  alt_text: Odin Logo
+  filename: odin-project/featured.png  # Uncomment to load an image from `assets/media/` instead.
 ---
 
 The Odin Project is an online course on web development which (as of writing this) I'm currently studying/learning through.
