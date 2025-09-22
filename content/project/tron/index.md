@@ -1,6 +1,7 @@
 ---
 title: "Senior Project: Tron"
 date: 2020-05-19
+summary: "Part of my highschool senior project, which included learning HTML, CSS, and JS."
 # external_link: https://github.com/pytorch/pytorch
 # tags:
 #   - Hugo

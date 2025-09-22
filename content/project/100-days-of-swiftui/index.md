@@ -1,6 +1,7 @@
 ---
 title: "100 Days of SwiftUI"
 date: 2025-04-06
+summary: "An online course/collection of guides on how to use Swift/SwiftUI for mobile app development."
 # external_link: https://github.com/pytorch/pytorch
 # tags:
 #   - Hugo

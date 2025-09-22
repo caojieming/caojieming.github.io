@@ -1,6 +1,7 @@
 ---
 title: "The Odin Project"
 date: 2025-05-20
+summary: "The Odin Project is an online course I'm taking on web development."
 # external_link: https://github.com/pytorch/pytorch
 # tags:
 #   - Hugo
@@ -8,7 +9,7 @@ date: 2025-05-20
 #   - Markdown
 ---
 
-The Odin Project is an online course on web development which (as of writing this) I'm currently studying/learning through.
+[The Odin Project](https://www.theodinproject.com/) is an online course I'm taking on web development.
 
 My Senior Project was also focused on web development. However, that was made mostly through a series of scattered online guides and self-learning, along with a generous amount of assistance from someone who had experience with web development.
 
