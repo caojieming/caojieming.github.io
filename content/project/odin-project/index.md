@@ -67,5 +67,10 @@ A Tic-Tac-Toe webpage that makes objects using factory functions.<br>
 [Web Link](http://jamescao.dev/odin-tic-tac-toe/)<br>
 [Github Repo](https://github.com/caojieming/odin-tic-tac-toe)<br>
 
+Organizing Your JavaScript Code, Project 3: Webpack Restaurant Page<br>
+A basic restaurant page with multiple tabs built using modules and bundled using Webpack.<br>
+[Web Link](http://jamescao.dev/odin-restaurant-page/)<br>
+[Github Repo](https://github.com/caojieming/odin-restaurant-page)<br>
+
 
 <!--more-->
