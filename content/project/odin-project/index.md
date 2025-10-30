@@ -72,5 +72,9 @@ A basic restaurant page with multiple tabs built using modules and bundled using
 [Web Link](http://jamescao.dev/odin-restaurant-page/)<br>
 [Github Repo](https://github.com/caojieming/odin-restaurant-page)<br>
 
+Organizing Your JavaScript Code, Project 4: Todo List<br>
+A simple webapp that allows you to set up todo tasks for projects.<br>
+[Web Link](http://jamescao.dev/odin-todo-list/)<br>
+[Github Repo](https://github.com/caojieming/odin-todo-list)<br>
 
 <!--more-->
