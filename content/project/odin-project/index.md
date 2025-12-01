@@ -77,4 +77,9 @@ A simple webapp that allows you to set up todo tasks for projects.<br>
 [Web Link](http://jamescao.dev/odin-todo-list/)<br>
 [Github Repo](https://github.com/caojieming/odin-todo-list)<br>
 
+Asynchronous JavaScript and APIs, Project 1: Weather App<br>
+A simple webapp that uses Visual Crossing Weather API to get and present weather data.<br>
+[Web Link](http://jamescao.dev/odin-weather-app/)<br>
+[Github Repo](https://github.com/caojieming/odin-weather-app)<br>
+
 <!--more-->
