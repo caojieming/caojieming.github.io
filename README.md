@@ -16,7 +16,9 @@ Update hugo using `npx hugoblox@latest upgrade`
 - `/content/*/_index.md`: edit the contents/layout of the corresponding `*` page
 - `/content/experience.md`: edit the contents/layout of the experience page
 
-
+- if the branch name is `main`, then the website should deploy automtically (see file `/.github/workflows/deploy.yaml`)
+  - you can change the auto-deploy branch-name trigger in said file
+  - otherwise, go to Github -> Actions -> Deploy Website to GitHub Pages -> run workflow
 
 ## Template used
 [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
