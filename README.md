@@ -20,5 +20,9 @@ Update hugo using `npx hugoblox@latest upgrade`
   - you can change the auto-deploy branch-name trigger in said file
   - otherwise, go to Github -> Actions -> Deploy Website to GitHub Pages -> run workflow
 
+## Troubleshooting
+- if attempting to deploy to gh-pages results in failure, check details of workflow
+  - if you get something like "Branch BRANCH_NAME is not allowed to deploy to github-pages due to environment protection rules", go to Settings -> Environments -> github-pages -> Deployment branches and tags -> add or edit BRANCH_NAME to the list
+
 ## Template used
 [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
