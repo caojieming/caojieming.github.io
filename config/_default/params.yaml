@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "James Cao"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -118,6 +118,7 @@ hugoblox:
     # Copyright notice - supports {year}, {name}, {license} placeholders
     notice: "© {year} {name}. This work is licensed under {license}"
     license:
+      enable: true
       type: cc                          # cc | all_rights | custom
       allow_derivatives: false
       share_alike: true
