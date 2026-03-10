@@ -1,8 +1,10 @@
 module github.com/HugoBlox/kit/templates/academic-cv
 
-go 1.19
+<!-- go 1.19 -->
+go 1.26.1
 
 require (
-	github.com/HugoBlox/kit/modules/integrations/netlify v1.2.1-20251201030931-373eb7966ed8
-	github.com/HugoBlox/kit/modules/blox v0.11.0-20251201054050-e0a99de6dad0
+	github.com/HugoBlox/kit/modules/blox v0.11.0
+    github.com/HugoBlox/kit/modules/integrations/netlify v1.2.1
+    github.com/HugoBlox/kit/modules/slides v1.2.5
 )
