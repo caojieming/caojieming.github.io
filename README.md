@@ -2,8 +2,9 @@
 
 To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
 
-Update hugo using `npx hugoblox@latest upgrade`
+Update hugo using `hbx upgrade`
 - [Update documentation](https://docs.hugoblox.com/guides/upgrade/)
+- theoretically not needed? "upgrade.yml" Workflow should automatically update hugoblox
 
 ## Notes
 - `/config/_default/params.yaml`: edit general website data

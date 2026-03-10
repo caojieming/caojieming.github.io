@@ -1,7 +1,7 @@
 module github.com/HugoBlox/kit/templates/academic-cv
 
-<!-- go 1.19 -->
-go 1.26.1
+go 1.19
+<!-- go 1.26.1 -->
 
 require (
 	github.com/HugoBlox/kit/modules/blox v0.11.0
