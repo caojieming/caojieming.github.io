@@ -1,5 +1,7 @@
 # James Cao's Personal Website
 
+OUTDATED VERSION
+
 To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
 
 Update hugo using `hbx upgrade`
