@@ -1,0 +1,192 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: James Cao
+  given: James
+  family: Cao
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+# postnominals:
+#   - PhD
+#   - MIEEE
+# status:
+#   icon: "☕️"
+# role: Senior AI Research Scientist
+bio: |
+  James Cao is a graduate of Worcester Polytechnic Institute (May 2024) with a BS in Computer Science. He has primarily worked with ETL, database management, and data analysis through academic projects and internships. His current interests include web development using HTML, CSS, and JavaScript, as well as data analysis and AI using Python.
+
+# affiliations:
+#   - name: Meta AI
+#     url: https://ai.meta.com/
+
+# links:
+#   - icon: at-symbol
+#     url: mailto:alex.johnson@example.com
+#     label: E-mail Me
+#   - icon: brands/x
+#     url: https://x.com/example
+#   - icon: brands/github
+#     url: https://github.com/example
+#   - icon: brands/linkedin
+#     url: https://www.linkedin.com/in/example/
+#   - icon: academicons/google-scholar
+#     url: https://scholar.google.com/citations?user=example
+#   - icon: academicons/orcid
+#     url: https://orcid.org/0000-0002-1825-0097
+links:
+  - icon: at-symbol
+    url: 'mailto:jamesjmwcao@gmail.com'
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/caojieming/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/cao-james/
+
+interests:
+  - Webapp Development
+  - Artificial Intelligence
+  - Coding
+  - Data Analysis
+
+# education:
+#   - degree: PhD Computer Science
+#     institution: Stanford University
+#     start: 2015-09-01
+#     end: 2019-06-30
+#     summary: |
+#       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+#     button:
+#       text: Download dissertation
+#       url: /resume.pdf
+#       icon: hero/arrow-down-tray
+#   - degree: MS Computer Science
+#     institution: Carnegie Mellon University
+#     start: 2013-09-01
+#     end: 2015-05-31
+#   - degree: BS Computer Science
+#     institution: MIT
+#     start: 2009-09-01
+#     end: 2013-05-31
+education:
+  - degree: Computer Science
+    institution: Worcester Polytechnic Institute
+    start: 2020-08-24
+    end: 2024-05-01
+    summary: |
+      GPA: 3.8/4.0
+
+# experience:
+#   - role: Senior AI Research Scientist
+#     org: Meta AI
+#     start: 2020-01-01
+#     summary: |
+#       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+#     button:
+#       text: View portfolio
+#       url: /
+#       icon: hero/arrow-down-tray
+#   - role: AI Research Intern
+#     org: OpenAI
+#     start: 2019-06-01
+#     end: 2019-12-31
+#     summary: |
+#       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+experience:
+  - role: Software Intern
+    org: Ailares
+    company_url: https://ailares.com/
+    company_logo: ''
+    start: 2023-05-01
+    end: 2023-07-01
+    summary: |
+      Ailares is a FinTech start-up focused on ML/AI algorithm trading systems (equity, crypto currency).
+      Responsibilities included:
+      - Developed a data flow (ETL: extract, transform, load) for commercial loans and customers using CSI NuPoint, Microsoft SQL Server Management Studio (SSMS), SQL Server Integration Services (SSIS)
+      - Created Power BI dashboards (data visualization) organized by 7 commercial loan portfolios
+  - role: Software Intern
+    org: Ailares
+    company_url: https://ailares.com/
+    company_logo: ''
+    start: 2022-05-01
+    end: 2022-08-01
+    summary: |
+      Responsibilities included:
+      - Improved invoice file processing workflows, researched current invoice management software solution vendors and automation enabled by Optical Character Recognition (OCR)
+      - Produced an automated workflow on AWS (Amazon Web Service) from data received via email to data tables in Amazon DynamoDB NoSQL (Not-Only-SQL) database
+  - role: Software Intern
+    org: NPG Solutions
+    company_url: https://upstack.com/npg-solutions/
+    company_logo: ''
+    start: 2021-06-01
+    end: 2021-08-01
+    summary: |
+      NPG is an IT service provider on Cloud, Collocation, Network Security, and Invoice Management.
+      Responsibilities included:
+      - Improved invoice file processing workflows, researched current invoice management software solution vendors and automation enabled by Optical Character Recognition (OCR)
+      - Produced an automated workflow on AWS (Amazon Web Service) from data received via email to data tables in Amazon DynamoDB NoSQL (Not-Only-SQL) database
+
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - label: Python
+#         level: 5
+#       - label: Machine Learning
+#         level: 5
+#       - label: Cloud Computing
+#         level: 4
+#   - name: Research & Communication
+#     items:
+#       - label: Academic Writing
+#         level: 5
+#       - label: Conference Presentations
+#         level: 4
+#       - label: Grant Proposals
+#         level: 4
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - label: Java
+        description: ''
+        level: 4.5
+        icon: 'code-bracket'
+      - label: Python
+        description: ''
+        level: 4.5
+        icon: 'code-bracket'
+      - label: C/C++
+        description: ''
+        level: 3
+        icon: 'code-bracket'
+      - label: SQL
+        description: ''
+        level: 3
+        icon: 'circle-stack'
+      - label: HTML
+        description: ''
+        level: 4
+        icon: 'code-bracket'
+      - label: JavaScript
+        description: ''
+        level: 4
+        icon: 'code-bracket'
+      - label: CSS
+        description: ''
+        level: 4
+        icon: 'code-bracket'
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Chinese
+    level: 0.5
+
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy

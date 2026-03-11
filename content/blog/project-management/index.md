@@ -3,7 +3,7 @@ title: ✅ Manage your projects
 summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
 date: 2023-10-23
 authors:
-  - admin
+  - me
 tags:
   - Hugo Blox
   - Markdown
@@ -42,9 +42,9 @@ Mindmaps can be created by simply writing the items as a Markdown list within th
 ```markmap {height="200px"}
 - Hugo Modules
   - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - netlify
+  - netlify-cms
+  - slides
 ```
 </code>
 </pre>
@@ -55,9 +55,9 @@ renders as
 ```markmap {height="200px"}
 - Hugo Modules
   - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - netlify
+  - netlify-cms
+  - slides
 ```
 
 ## Diagrams

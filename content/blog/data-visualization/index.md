@@ -3,7 +3,7 @@ title: 📈 Communicate your results effectively with the best data visualizatio
 summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
 date: 2023-10-25
 authors:
-  - admin
+  - me
 tags:
   - Hugo
   - Hugo Blox
@@ -43,7 +43,7 @@ HuggingFace Dataset
 
 GitHub Repository
 
-{{< embed platform="github" resource="HugoBlox/hugo-blox-builder" type="repo" >}}
+{{< embed platform="github" resource="HugoBlox/kit" type="repo" >}}
 
 Custom embed with manual data
 

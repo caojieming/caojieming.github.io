@@ -3,7 +3,7 @@ title: 🧠 Sharpen your thinking with a second brain
 summary: Create a personal knowledge base and share your knowledge with your peers.
 date: 2023-10-26
 authors:
-  - admin
+  - me
 tags:
   - Second Brain
   - Markdown
@@ -50,9 +50,9 @@ Mindmaps can be created by simply writing the items as a Markdown list within th
 ```markmap {height="200px"}
 - Hugo Modules
   - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - netlify
+  - netlify-cms
+  - slides
 ```
 </code>
 </pre>
@@ -63,9 +63,9 @@ renders as
 ```markmap {height="200px"}
 - Hugo Modules
   - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+  - netlify
+  - netlify-cms
+  - slides
 ```
 
 Anh here's a more advanced mindmap with formatting, code blocks, and math:
@@ -78,7 +78,7 @@ Anh here's a more advanced mindmap with formatting, code blocks, and math:
   - Links
     - [Hugo Blox Docs](https://docs.hugoblox.com/)
     - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+    - [GitHub](https://github.com/HugoBlox/kit)
   - Features
     - Markdown formatting
     - **inline** ~~text~~ *styles*
@@ -98,7 +98,7 @@ renders as
   - Links
     - [Hugo Blox Docs](https://docs.hugoblox.com/)
     - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+    - [GitHub](https://github.com/HugoBlox/kit)
   - Features
     - Markdown formatting
     - **inline** ~~text~~ *styles*

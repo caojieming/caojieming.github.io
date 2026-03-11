@@ -12,11 +12,13 @@ Update hugo using `hbx upgrade`
 - `/config/_default/menus.yaml`: edit the header contents/nav links
 - `/content/_index.md`: edit the contents/layout of the landing page
   - resume link is here
-- `/content/authors/admin`: edit information directly tied to an "author"
-  - changing things here will affect the top half of the landing page details as well as the experience page
 - `/static/uploads`: resume pdf location
 - `/content/*/_index.md`: edit the contents/layout of the corresponding `*` page
 - `/content/experience.md`: edit the contents/layout of the experience page
+
+- `/data/authors/me.yaml`: edit information directly tied to an "author"
+  - changing things here will affect the top half of the landing page details as well as the experience page
+- `/assets/media/authors/me.png`: edit author picture
 
 - if the branch name is `main`, then the website should deploy automtically (see file `/.github/workflows/deploy.yaml`)
   - you can change the auto-deploy branch-name trigger in said file
