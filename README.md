@@ -1,10 +1,17 @@
 # James Cao's Personal Website
 
-To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
+## Dev tools
+Standard npm updating:<br>
+`npm install` to install all dev dependencies.<br>
+`npm outdated` to check if any packages are outdated (optional).<br>
+`npm update` to update outdated packages.<br><br>
 
 Update hugo using `hbx upgrade`
 - [Update documentation](https://docs.hugoblox.com/guides/upgrade/)
-- theoretically not needed? "upgrade.yml" Workflow should automatically update hugoblox
+- theoretically not needed? "upgrade.yml" Workflow should automatically update hugoblox every monday
+<br><br>
+
+To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
 
 ## Notes
 - `/config/_default/params.yaml`: edit general website data
