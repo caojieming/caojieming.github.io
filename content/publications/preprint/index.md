@@ -45,12 +45,12 @@ links:
   url: https://github.com/HugoBlox/kit
 - type: slides
   url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
+# - type: dataset
+#   url: "#"
+# - type: poster
+#   url: "#"
+# - type: source
+#   url: "#"
 - type: video
   url: https://youtube.com
 - type: custom

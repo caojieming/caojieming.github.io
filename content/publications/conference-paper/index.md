@@ -65,8 +65,8 @@ hugoblox:
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
+  # - type: pdf
+  #   url: ""
   - type: code
     url: https://github.com/HugoBlox/kit
   - type: dataset
@@ -90,8 +90,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
+  # - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
