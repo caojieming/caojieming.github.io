@@ -1,7 +1,7 @@
 name: Build
 
 env:
-  NODE_VERSION: '20'
+  NODE_VERSION: '22'
 
 on:
   # Standalone trigger for PR validation
@@ -34,7 +34,7 @@ jobs:
       artifact-id: ${{ steps.upload.outputs.artifact-id }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
@@ -46,7 +46,7 @@ jobs:
 
     - name: Setup pnpm
       if: hashFiles('package.json') != ''
-      uses: pnpm/action-setup@v4
+      uses: pnpm/action-setup@v6
 
     - name: Get Hugo Version
       id: hugo-version
@@ -62,10 +62,10 @@ jobs:
         sudo chmod +x /usr/local/bin/yq
         
         # Read hugo_version from hugoblox.yaml
-        VERSION=$(yq '.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
+        VERSION=$(yq '.build.hugo_version // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
         
         # Fallback to a known stable version if not specified
-        DEFAULT_VERSION="0.154.5"
+        DEFAULT_VERSION="0.161.1"
         VERSION=${VERSION:-$DEFAULT_VERSION}
         
         # Validate version format (basic check)
@@ -85,6 +85,16 @@ jobs:
           pnpm install --no-frozen-lockfile || npm install
         fi
 
+    - name: Verify Tailwind CSS dependency
+      if: hashFiles('package.json') != ''
+      run: |
+        if ! node -e "require.resolve('@tailwindcss/cli/package.json')" 2>/dev/null; then
+          echo "::error title=Missing dependency '@tailwindcss/cli'::Hugo >= 0.161.0 requires the npm @tailwindcss/cli package. Add it to package.json:"
+          echo "::error::  pnpm add @tailwindcss/cli tailwindcss"
+          echo "::error::See https://github.com/HugoBlox/kit for upgrade instructions."
+          exit 1
+        fi
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
@@ -92,7 +102,7 @@ jobs:
         extended: true
 
     # Cache dependencies (Go modules, node_modules) - stable, rarely changes
-    - uses: actions/cache@v4
+    - uses: actions/cache@v5
       with:
         path: |
           /tmp/hugo_cache_runner/
@@ -104,7 +114,7 @@ jobs:
           ${{ runner.os }}-hugo-deps-
 
     # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
-    - uses: actions/cache@v4
+    - uses: actions/cache@v5
       with:
         path: resources/
         key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
@@ -112,13 +122,17 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
     - name: Generate Pagefind search index (if applicable)
       run: |

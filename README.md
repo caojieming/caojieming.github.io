@@ -6,9 +6,14 @@ Standard npm updating:<br>
 `npm outdated` to check if any packages are outdated (optional).<br>
 `npm update` to update outdated packages.<br><br>
 
-~~Update hugo using `hbx upgrade`~~
+How to update:
+- ~~Update hugo using `hbx upgrade`~~
 - ~~[Update documentation](https://docs.hugoblox.com/guides/upgrade/)~~
-- deprecated, "upgrade.yml" Workflow should automatically update hugoblox every monday
+- Above is deprecated, "upgrade.yml" Workflow should automatically update hugoblox every monday
+
+If you're getting build errors after hugoblox updates:
+- Update the "hugo_version" value in ~/hugoblox.yaml to whatever value it is in the [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/hugoblox.yaml)
+- Also copy/paste all of ~/.github/workflows/build.yml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/.github/workflows/build.yml) into your own.
 <br><br>
 
 To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
