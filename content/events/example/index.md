@@ -3,7 +3,6 @@ title: "Create Beautiful Presentations with Markdown"
 date: '2017-01-01T00:00:00Z'
 
 event_name: HugoBlox Showcase
-event_url: https://hugoblox.com
 
 location: Online & In-Person
 address:
@@ -37,19 +36,8 @@ image:
   caption: 'Presentation freedom with Markdown'
   focal_point: Right
 
-links:
-  - icon: brands/github
-    name: Star on GitHub
-    url: https://github.com/HugoBlox/kit
-  - icon: brands/youtube
-    name: Video Tutorial
-    url: https://www.youtube.com/
-  - icon: book-open
-    name: Documentation
-    url: https://docs.hugoblox.com/guides/slides/
 
 # Link to your Markdown slides
-slides: "example"
 
 projects: []
 ---
@@ -200,7 +188,6 @@ Your slides are automatically:
 - ✅ Accessible at a direct URL
 - ✅ Keyboard-navigatable (→ ← keys)
 
-{{< button url="https://docs.hugoblox.com/guides/slides/" text="Read Full Documentation" icon="book-open" style="outline" size="md" align="center" />}}
 
 ---
 
