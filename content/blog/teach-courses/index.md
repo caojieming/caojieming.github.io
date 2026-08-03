@@ -38,13 +38,13 @@ On this page, you'll find some examples of the types of technical content that c
 
 Here's an example of citing a publication using the cite shortcode:
 
-(commented out because its causing website deployment to break)
-<!-- {{< cite page="/publications/preprint" view="citation" >}} -->
+(removed because its causing website deployment to break)
+(go look at the original repo if you want to try and get it to work)
 
 You can also use the default view by omitting the view parameter:
 
-(commented out because its causing website deployment to break)
-<!-- {{< cite page="/publications/conference-paper" >}} -->
+(removed because its causing website deployment to break)
+(go look at the original repo if you want to try and get it to work)
 
 ## Video
 
