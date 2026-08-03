@@ -11,12 +11,12 @@ How to update:
 - ~~[Update documentation](https://docs.hugoblox.com/guides/upgrade/)~~
 - Above is deprecated, "upgrade.yml" Workflow should automatically update hugoblox every monday
 
-If you're getting build errors after hugoblox updates try updating the following files from the [original hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv):
+If you're getting build errors after hugoblox updates, try updating the following files from the [original hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv):
 - ~/hugoblox.yaml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/hugoblox.yaml)
 - ~/.github/workflows/build.yml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/.github/workflows/build.yml) into your own.
-- ~/go.mod from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/go.mod)
-- ~/config/_default/hugo.yaml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/config/_default/hugo.yaml)
-- ~/config/_default/module.yaml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/config/_default/module.yaml)
+
+If you're still getting errors (or don't feel like blindly searching for the problem) try scrubbing the error of personal info before copy/pasting it into a ChatAI and asking it what's wrong. Here's a template:
+`What can you understand of the following error? For context, this is for Hugoblox/Ownable academic cv template, trying to build my website before deploying to ghpages. The error I'm getting is during the build process. {paste error here}`
 <br><br>
 
 To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
