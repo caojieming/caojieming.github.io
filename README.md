@@ -6,9 +6,9 @@ Standard npm updating:<br>
 `npm outdated` to check if any packages are outdated (optional).<br>
 `npm update` to update outdated packages.<br><br>
 
-Update hugo using `hbx upgrade`
-- [Update documentation](https://docs.hugoblox.com/guides/upgrade/)
-- theoretically not needed? "upgrade.yml" Workflow should automatically update hugoblox every monday
+~~Update hugo using `hbx upgrade`~~
+- ~~[Update documentation](https://docs.hugoblox.com/guides/upgrade/)~~
+- deprecated, "upgrade.yml" Workflow should automatically update hugoblox every monday
 <br><br>
 
 To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
