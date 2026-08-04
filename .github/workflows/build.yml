@@ -77,37 +77,29 @@ jobs:
         echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
         echo "Using Hugo version: $VERSION"
 
-    # - name: Install dependencies
-    #   run: |
-    #     # Install Tailwind CLI if package.json exists
-    #     if [ -f "package.json" ]; then
-    #       echo "Installing Tailwind dependencies..."
-    #       pnpm install --no-frozen-lockfile || npm install
-    #     fi
+    - name: Install dependencies
+      run: |
+        # Install Tailwind CLI if package.json exists
+        if [ -f "package.json" ]; then
+          echo "Installing Tailwind dependencies..."
+          pnpm install --no-frozen-lockfile || npm install
+        fi
 
-    # - name: Verify Tailwind CSS dependency
-    #   if: hashFiles('package.json') != ''
-    #   run: |
-    #     if ! node -e "require.resolve('@tailwindcss/cli/package.json')" 2>/dev/null; then
-    #       echo "::error title=Missing dependency '@tailwindcss/cli'::Hugo >= 0.161.0 requires the npm @tailwindcss/cli package. Add it to package.json:"
-    #       echo "::error::  pnpm add @tailwindcss/cli tailwindcss"
-    #       echo "::error::See https://github.com/HugoBlox/kit for upgrade instructions."
-    #       exit 1
-    #     fi
+    - name: Verify Tailwind CSS dependency
+      if: hashFiles('package.json') != ''
+      run: |
+        if ! node -e "require.resolve('@tailwindcss/cli/package.json')" 2>/dev/null; then
+          echo "::error title=Missing dependency '@tailwindcss/cli'::Hugo >= 0.161.0 requires the npm @tailwindcss/cli package. Add it to package.json:"
+          echo "::error::  pnpm add @tailwindcss/cli tailwindcss"
+          echo "::error::See https://github.com/HugoBlox/kit for upgrade instructions."
+          exit 1
+        fi
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
         hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
-
-    # custom added
-    - name: Install dependencies
-      run: npm install
-
-    # custom added
-    - name: Verify Tailwind
-      run: npx tailwindcss --version
 
     # Cache dependencies (Go modules, node_modules) - stable, rarely changes
     - uses: actions/cache@v5

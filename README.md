@@ -19,7 +19,7 @@ If you're still getting errors (or don't feel like blindly searching for the pro
 `What can you understand of the following error? For context, this is for Hugoblox/Ownable academic cv template, trying to build my website before deploying to ghpages. The error I'm getting is during the build process. {paste error here}`
 <br><br>
 
-To preview website before deploy, use `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
+To preview website before deploy, make sure you have `go` and `hugo` installed via homebrew (`npm install -g hugoblox` is optional, probably). Then use `npm run dev` or `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
 
 ## Notes
 - `/config/_default/params.yaml`: edit general website data
