@@ -18,5 +18,9 @@
   },
   "allowScripts": {
     "@parcel/watcher@2.5.1": true
+  },
+  "overrides": {
+    "tar": "^7.5.21",
+    "picomatch": "^2.3.2"
   }
 }
