@@ -14,9 +14,17 @@ How to update:
 If you're getting build errors after hugoblox updates, try updating the following files from the [original hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv):
 - ~/hugoblox.yaml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/hugoblox.yaml)
 - ~/.github/workflows/build.yml from [hugo repo](https://github.com/HugoBlox/hugo-theme-academic-cv/blob/main/.github/workflows/build.yml) into your own.
+<br><br>
 
-If you're still getting errors (or don't feel like blindly searching for the problem) try scrubbing the error of personal info before copy/pasting it into a ChatAI and asking it what's wrong. Here's a template:
-`What can you understand of the following error? For context, this is for Hugoblox/Ownable academic cv template, trying to build my website before deploying to ghpages. The error I'm getting is during the build process. {paste error here}`
+If you're getting an error that ends with something like `error calling RelPermalink: TAILWINDCSS: failed to transform "/css/_entry.css" (text/css): binary "tailwindcss" is not a Node.js script`, comment out the "Install dependencies" step in build.yml, and add the following step just before "Get Hugo Version":
+
+`    - name: Install Node dependencies`<br>
+`      run: npm ci`
+<br><br>
+
+If you're still getting errors (or don't feel like blindly searching for the problem) try scrubbing the error of personal info before copy/pasting it into a ChatAI and asking it what's wrong. Here's a template:<br>
+`What can you understand of the following error? For context, this is for Hugoblox/Ownable academic cv template, trying to build my website before deploying to ghpages. The error I'm getting is during the build process.`
+`{paste error here}`
 <br><br>
 
 To preview website before deploy, make sure you have `go` and `hugo` installed via homebrew (`npm install -g hugoblox` is optional, probably). Then use `npm run dev` or `hugo server` (server link: [http://localhost:1313/](http://localhost:1313/))
