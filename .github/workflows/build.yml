@@ -48,6 +48,10 @@ jobs:
       if: hashFiles('package.json') != ''
       uses: pnpm/action-setup@v6
 
+    # custom step that just installs dependencies, no ifs or buts unlike the commented out section below
+    - name: Install Node dependencies
+      run: npm ci
+
     - name: Get Hugo Version
       id: hugo-version
       run: |
@@ -77,13 +81,13 @@ jobs:
         echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
         echo "Using Hugo version: $VERSION"
 
-    - name: Install dependencies
-      run: |
-        # Install Tailwind CLI if package.json exists
-        if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
-          pnpm install --no-frozen-lockfile || npm install
-        fi
+    # - name: Install dependencies
+    #   run: |
+    #     # Install Tailwind CLI if package.json exists
+    #     if [ -f "package.json" ]; then
+    #       echo "Installing Tailwind dependencies..."
+    #       pnpm install --no-frozen-lockfile || npm install
+    #     fi
 
     - name: Verify Tailwind CSS dependency
       if: hashFiles('package.json') != ''
