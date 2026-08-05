@@ -48,6 +48,7 @@ A simple browser calculator, allowing addition, subtraction, multiplication, and
 [Github Repo](https://github.com/caojieming/browser-calculator)<br>
 <br>
 
+
 Forms, Project 1: Sign-Up Form<br>
 A mockup of a simple sign-up page using forms.<br>
 [Web Link](http://jamescao.dev/sign-up-form/)<br>
@@ -57,7 +58,6 @@ Grid, Project 1: Admin Dashboard<br>
 An admin dashboard design made using HTML and CSS, primarily structured using grids (with occasional Flexbox support).<br>
 [Web Link](http://jamescao.dev/odin-admin-dashboard/)<br>
 [Github Repo](https://github.com/caojieming/odin-admin-dashboard)<br>
-
 
 Organizing Your JavaScript Code, Project 1: Small Library<br>
 A simple webpage that allows you to add and remove books from a library, as well as change the read status of books.<br>
@@ -83,5 +83,12 @@ Asynchronous JavaScript and APIs, Project 1: Weather App<br>
 A simple webapp that uses Visual Crossing Weather API to get and present weather data.<br>
 [Web Link](http://jamescao.dev/odin-weather-app/)<br>
 [Github Repo](https://github.com/caojieming/odin-weather-app)<br>
+<br>
+
+
+Express, Project 1: Mini Message Board<br>
+A web server made using Express.JS that allows you to add, view, and remove messages from a message board. All messages are stored in a PostGreSQL database hosted by [Neon](https://neon.com). The web server itself is hosted on [Render](https://render.com).<br>
+[Web Link](https://odin-mini-message-board-36li.onrender.com)<br>
+[Github Repo](https://github.com/caojieming/odin-mini-message-board)<br>
 
 <!--more-->
