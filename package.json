@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.4",
     "pagefind": "^1.4.0",
+    "picomatch": "^2.3.2",
     "preact": "^10.27.2",
     "tailwindcss": "^4.1.12",
-    "tar": "^7.5.21",
-    "picomatch": "^2.3.2"
+    "tar": "^7.5.21"
   },
   "allowScripts": {
-    "@parcel/watcher@2.5.1": true
+    "@parcel/watcher@2.6.0": true
   }
 }
