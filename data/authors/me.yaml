@@ -94,6 +94,34 @@ education:
 #     summary: |
 #       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 experience:
+  # - role: Assistant?
+  #   org: CAO Advisory?
+  #   company_url: https://caoadvisoryllc.com
+  #   # company_logo: ''
+  #   start: 2026-10-20
+  #   end: Present
+  #   summary: |
+  #     (WIP)
+
+  #     Accounting/finances stuff.
+
+  #     Responsibilities included:
+  #     - 
+  #     - 
+  - role: Volunteer
+    org: Private Directors Association (PDA) - SIG AI Governance National
+    company_url: https://www.privatedirectors.org
+    # company_logo: ''
+    start: 2026-04-20
+    end: Present
+    summary: |
+      (WIP)
+
+      A special interest group within PDA seeking to help on closing the board's AI knowledge gap and aligning AI with broader enterprise strategies in growth, innovation, technology, and risk management.
+
+      Responsibilities included:
+      - Managed Google Drive files, including organizing the overall file structure, archiving important documents, and updating spreadsheets on all active members
+      - Created a system to record Zoom meeting participants from Zoom API into Google Spreadsheets using Google Apps Script, as well as transform that data into more meaningful outputs
   - role: Software Intern
     org: Ailares
     company_url: https://ailares.com/
@@ -102,6 +130,7 @@ experience:
     end: 2023-07-01
     summary: |
       Ailares is a FinTech start-up focused on ML/AI algorithm trading systems (equity, crypto currency).
+
       Responsibilities included:
       - Developed a data flow (ETL: extract, transform, load) for commercial loans and customers using CSI NuPoint, Microsoft SQL Server Management Studio (SSMS), SQL Server Integration Services (SSIS)
       - Created Power BI dashboards (data visualization) organized by 7 commercial loan portfolios
@@ -123,6 +152,7 @@ experience:
     end: 2021-08-01
     summary: |
       NPG is an IT service provider on Cloud, Collocation, Network Security, and Invoice Management.
+
       Responsibilities included:
       - Improved invoice file processing workflows, researched current invoice management software solution vendors and automation enabled by Optical Character Recognition (OCR)
       - Produced an automated workflow on AWS (Amazon Web Service) from data received via email to data tables in Amazon DynamoDB NoSQL (Not-Only-SQL) database
